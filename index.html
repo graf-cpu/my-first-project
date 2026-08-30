@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Мой первый проект</title>
+  <style>
+    :root { color-scheme: dark; font-family: Arial, sans-serif; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: radial-gradient(circle at top, #26396b, #0b1020 60%);
+      color: #fff;
+    }
+    main {
+      width: min(680px, 90%);
+      padding: 48px;
+      text-align: center;
+      border: 1px solid rgba(255,255,255,.18);
+      border-radius: 24px;
+      background: rgba(255,255,255,.08);
+      box-shadow: 0 24px 80px rgba(0,0,0,.35);
+      backdrop-filter: blur(12px);
+    }
+    h1 { margin: 0 0 16px; font-size: clamp(36px, 8vw, 64px); }
+    p { margin: 0 0 28px; color: #cbd5e1; font-size: 20px; line-height: 1.6; }
+    a {
+      display: inline-block;
+      padding: 14px 24px;
+      border-radius: 999px;
+      background: #fff;
+      color: #111827;
+      font-weight: 700;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Привет, мир!</h1>
+    <p>Это мой первый сайт, опубликованный через GitHub и Vercel.</p>
+    <a href="https://github.com/graf-cpu/my-first-project">Открыть проект на GitHub</a>
+  </main>
+</body>
+</html>
